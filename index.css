@@ -1,0 +1,40 @@
+:root {
+  --pink: #FF6B9B;
+  --blue: #A6CAEC;
+  --font-size-14: 14px;
+  --font-size-18: 18px;
+  --font-size-22: 22px;
+}
+
+.wrapInner {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.pink-18 {
+  color: var(--pink);
+  font-size: var(--font-size-18);
+}
+
+.black-14 {
+  font-size: var(--font-size-14);
+}
+
+.black-22 {
+  font-size: var(--font-size-22);
+}
+
+.liner-blue {
+  width: fit-content;
+  margin: 0 auto;
+  background-image: linear-gradient(transparent 60%, var(--blue) 60%);
+}
